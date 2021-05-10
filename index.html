@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App-------RealTime Socket</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <!-- defer means after loading the dom js will load -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>Welcome to the Chat App</h1>
+        <img class="logo" src="logo.png" alt="">
+    </nav>
+    <div class="cont">
+        <!-- <div class="message left">Hello</div>
+        <div class="message right">How are you</div> -->
+    </div>
+    <div class="send">
+        <form action="#" id="sendCont">
+            <input type="text" name="message" id="message" placeholder="Enter Message here">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
+
